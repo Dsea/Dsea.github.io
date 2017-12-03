@@ -1,0 +1,135 @@
+body{
+	margin: 20px auto;
+	width:100%;
+	padding:0 auto;
+	background:url(../images/timg.jpg);
+	line-height: 26px;
+
+}
+/*手机壳层*/
+#box{
+	width: 100%;
+	max-width: 340px;
+	height: 570px;
+	background:url(../images/phone.png) no-repeat ;
+	margin: 10px auto;
+	position: relative;
+}
+/*屏幕层*/
+#demo{
+	width: 240px;
+	height: 430px;
+	position: absolute;
+	top: 65px;
+	left: 28px;
+	background-color: white;
+}
+/*信息显示层*/
+#show{
+	width: 240px;
+	height: 380px;
+	overflow: auto;
+}
+ .oBox{
+ 	max-width: 240px;
+	height: auto;
+	margin-top:10px;
+	min-height: 30px;
+	overflow: auto;
+}
+
+.oP{
+	width: 150px;
+	min-height: 26px;
+	height:auto;
+	margin:0;
+	border: 1px solid #EDEDF1;
+	position: relative;
+}
+.opLeft{
+	text-align: left;
+	float:right;
+	margin-right:26px;
+}
+.opRight{
+	text-align: right;
+	float: left;
+	margin-left:22px;
+}
+.direL{
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-right: 10px solid #EDEDF1;
+	border-bottom:10px solid transparent;
+	border-left: 10px solid transparent;
+	position: absolute;
+	left: -20px;
+	top: 3px;
+}
+.direR{
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom:10px solid transparent;
+	border-left: 10px solid #EDEDF1;
+	position: absolute;
+	right: -20px;
+	top: 3px;
+}
+
+ .spanLeft{
+	background:url(../images/1.png) no-repeat;
+	float: left;
+
+}
+
+ .spanRight{
+	background:url(../images/2.png) no-repeat;
+	float: right;
+}
+
+
+/*信息发送层*/
+#set{
+	width: 240px;
+	height:38px;
+	position: absolute;
+	bottom: 0;
+	background-color: #E2E1E1;
+	padding-top: 10px;
+	
+}
+.setImg{
+	display: block;
+	width: 26px;
+	height: 26px;
+	border-radius: 5px;
+	background-color: #B2AFAF;
+	margin:0 6px;
+	
+
+}
+#set span:nth-child(1){
+	background:url(../images/1.png) no-repeat;
+	float: left;
+}
+#set span:nth-child(2){
+	background:url(../images/2.png) no-repeat;
+	display:none;
+	float: left;
+}
+#set input{
+	width: 120px;
+	height: 20px;
+	border-radius: 5px;
+	border:none;
+}
+#set button{
+	width: 70px;
+	height: 26px;
+	border: none;
+	background:#49B1FB;
+	border-radius: 3px;
+}

@@ -1,0 +1,15 @@
+*{margin:10px;padding: 0}
+p{
+	font-size: 20px;
+	color: blue;
+}
+
+button{
+	color: #19EFF1;
+	font-size: 20px;
+	font-weight: bold;
+}
+span{
+	color: red;
+	font-size: 20px;
+}

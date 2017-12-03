@@ -1,0 +1,94 @@
+body{
+	margin: 0 auto;
+	padding: 0;
+	font-size: 	12px;
+	background: url(../images/timg.jpg)
+}
+/*外部盒子*/
+#demo{
+	max-width: 600px;
+	height: 650px;
+	width: 100%;
+	background: #75E7FB;
+	box-shadow:  0 0 3px 3px #057D89;
+	margin: 10px auto;
+	position: relative;
+}
+/*演示层*/
+#demo .show{
+	width: 100%;
+	height: 100%;
+	box-sizing:border-box;
+	padding: 10px;
+	background: #057D89;
+}
+#demo .show button{
+	border: none;
+	background-color: red;
+	border-radius: 5px;
+	width: 80px;
+	height: 30px;
+
+}
+ #showDiv{
+	width: 200px;
+	height: 200px;
+	border: 1px solid red;
+	margin: 10px;
+}
+/*设置层*/
+#setBox{
+	width: 100%;
+	height:650px;
+	border: 1px solid green;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+#setBox .set{
+	width: 80%;
+	max-width: 400px;
+	height: 200px;
+	border: 25px solid #9B9A9A;
+	position:absolute;
+	bottom:10px;
+	right:10px;
+}
+#setBox .set span{
+	width: 90px;
+	height: 20px;
+	display:inline-block; 
+	margin-top: 20px;
+	margin-left: 10px;
+}
+#setBox .set button{
+	width: 50px;
+	height:40px;
+	border: none;
+	border-radius: 5px;
+	margin-top: 2px;
+}
+/*确认按钮*/
+#setBox .setBtn{
+	padding-left: 38%;
+	margin-top: 10px
+}
+#setBox .setBtn input{
+	width: 50px;
+	height: 30px;
+	border: none;
+	border-radius: 5px;
+	background-color: #1B1FE8;
+}
+/*渐变*/
+@keyframes gradient{
+	form{
+		background-color: #FFFFFF;
+		opacity: 1;
+	}
+	to{
+		background-color:#C9C8C8;
+		opacity: 0.5;
+		}
+}

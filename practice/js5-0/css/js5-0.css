@@ -1,0 +1,27 @@
+*{margin:0;padding: 0}
+table{
+	margin: 0 auto;
+	text-align: center;
+}
+ th{
+	width: 480px;
+}
+tr td{
+	border: 1px solid #D4D4DB;
+}
+tr{
+	width: 100%;
+}
+td{
+	width:80px;
+	height: 30px;
+
+}
+input{
+	width: 50px;
+	text-align: center;
+}
+#Result{
+	margin:auto;
+	text-align: center;
+}

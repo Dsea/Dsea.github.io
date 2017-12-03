@@ -1,0 +1,86 @@
+*{margin: 0;padding: 0}
+ul li{
+	list-style:none;
+}
+#box{
+	width: 100%;
+	max-width: 800px;
+	padding: 10px;
+	background: #ABE6FF;
+	position: relative;
+	margin: 10px auto;
+}
+#control {
+	width: 60px;
+	height: 30px;
+	background: red;
+	text-align: center;
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: bold;
+	color: white;
+	float: right;
+	margin-right: 10px
+}
+#con{
+	width: 60px;
+	height: 30px;
+	background: blue;
+	display: inline-block;
+}
+#ul1{
+	width: 60px;
+	height: 30px;
+	float: left;
+	display: none;
+}
+#ul1 li{
+	background: #79BAF9;
+	border-top:1px solid #E2FDFF;
+}
+p{
+	width: 80%;
+	margin: 10px auto;
+	background: #AAF5FE;
+}
+
+#foot{
+	width: 80%;
+	margin: 10px auto;
+	height: 150px;
+	border: 10px solid red;
+	background: #79F79D;
+	padding:10px;
+	box-sizing:border-box;
+	display: none;
+
+}
+#foot ul{
+	margin:10px 0 ;
+	width: 100%;
+	border-bottom:2px solid red;
+	overflow: hidden;
+}
+#foot ul li{
+	width: 80px;
+	height: 35px;
+	float: left;
+	list-style-type: none;
+	margin-right: 10px;
+	font-size: 16px;
+	line-height: 37px;
+	text-align: center;
+}
+#foot ul li:hover{
+	font-weight: bold;
+	background: red;
+}
+#foot div{
+	margin-top: 20px;
+	width: 100%;
+	height: 30px;
+	
+}
+#foot div input,button{
+	height: 25px;
+}

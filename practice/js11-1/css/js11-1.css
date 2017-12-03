@@ -1,0 +1,72 @@
+*{margin: 0;padding: 0}
+ul li{
+	list-style:none;
+}
+#box{
+	width: 800px;
+	max-width: 100%;
+	margin: 10px auto;
+	box-shadow: 0 0 6px 2px #292727;
+	padding: 10px;
+}
+#show{
+	width: 90%;
+	height: auto;
+	border: 10px solid #B8EDE7;
+	margin: 0 auto;
+	height: 300px;
+	padding: 3px;
+}
+
+#show div{
+	display: inline-block;
+	box-sizing:border-box;
+}
+#conleft{
+	width: 40%;
+	border: 1px solid red;
+	height:100%;
+	vertical-align: top;
+}
+#content{
+	width: 100%;
+	height: 100%;
+	border: none;
+	background: #C7FF96;
+	vertical-align: top;
+}
+#conmid{
+	width: 20%;
+	height: 300px;
+	vertical-align: top;
+	text-align: center;
+}
+#conmid button{
+	width: 90%;
+	height: 40px;
+	border: none;
+	background: red;
+	font-size: 18px;
+}
+#conmid span{
+	margin-top: 10px;
+	font-size: 20px;
+}
+#conmid ul li{
+	width: 10px;
+	height: 10px;
+	display: inline-block;
+	background: #BAF875;
+}
+#conrig{
+	width: 39%;
+	height: 100%;
+	background: #9CF4FF;
+	border: 1px solid #157BFB;
+}
+
+@keyframes aLiColor
+{
+    from {opacity: 0;}
+    to {opacity:0;}
+}

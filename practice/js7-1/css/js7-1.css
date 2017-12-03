@@ -1,0 +1,7 @@
+*{margin: 0;padding: 0}
+#demo{
+	width: 100%;
+	max-width:200px;
+	border: 1px solid #E8E8E8;
+	margin: 30px auto;
+}

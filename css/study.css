@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1512207320627&di=b0a1d91a2fce4fcecb5878a9b7dc4b5e&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F013f5e55498ca80000019ae9dbce99.jpg%402o.jpg) no-repeat;
+    background-size:100%;
+}
+@media screen and (max-width:700px){
+    body{
+        background: none;
+    }
+}

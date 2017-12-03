@@ -1,0 +1,96 @@
+*{margin: 0;padding: 0;}
+#demo{
+	width: 100%;
+	max-width: 220px;
+	margin: 10px auto;
+	box-shadow:0px 0px 10px 1px #CAC7C7 ;
+	padding: 10px;
+	color: #F3F3F3
+}
+#demoTop{
+	width: 200px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	height: 30px;
+	color: white;
+	line-height: 30px;
+	background:#384475;
+	margin: 0 auto;
+	padding-left: 10px;
+	box-sizing:border-box;
+}
+#demoTop span{
+	float:right;
+	margin-right: 10px;
+}
+
+#box{
+	width: 198px;
+	height: 450px;
+	border:1px solid #C9C6C6;
+	margin:0 auto;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	position: relative;
+	overflow: hidden;
+	
+}
+#box ul{
+	position: absolute;
+	left: 10px;
+	top: 30px;
+}
+#box li{
+	list-style-type: none;
+	border-bottom: 1px solid #C3C3C3;
+	height: 100px;
+}
+#box button{
+	width: 198px;
+	height: 30px;
+	background: #E9F1FC;
+	border:none;
+	position: absolute;
+	z-index: 1;
+}
+#box button div{
+	 width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    margin: 0 auto;
+}
+
+.triangle-down {
+   
+    border-top: 10px solid blue;
+}
+.triangle-up {
+
+    border-bottom: 10px solid blue;
+}
+
+
+#demo button:nth-child(1){
+	top: 0;
+}
+#demo button:nth-child(2){
+	bottom: 1px;
+}
+#box ul{
+	margin-top: 30px;
+}
+#box img{
+	width: 100px;
+	height: 80px;
+	margin:5px 5px 0 0;
+	float: right;
+}
+
+#box span{
+	float: left;
+	width: 60px;
+	height: 50px;
+	margin: 5px;
+	color: blue;
+}

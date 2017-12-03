@@ -1,0 +1,90 @@
+*{margin: 0;padding: 0;}
+#demo{
+	width: 100%;
+	max-width: 500px;
+	height: 60px;
+	box-shadow: -1px -1px 1px 1px #D7D5D5;
+	margin:10px auto;
+	padding-top: 10px;
+	position: relative;
+}
+#show{
+	width: 80%;
+	height:30px ;
+	background: #7A94FD;
+	border-radius: 3px;
+	box-shadow: -1px -1px 2px 2px #E7E9FF;
+	margin:0 auto;
+}
+#show span{
+	line-height: 30px;
+	height: 30px;
+	float: right;
+	margin-right: 10px;
+	color: white;
+}
+#show a{
+	border-radius: 5px;
+	padding:0 4px;
+}
+
+ ul li{
+	list-style-type: none;
+	float: left;
+	font-size: 14px;
+	line-height: 30px;
+	padding-left:10px;
+	padding-right: 10px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	border-right: 1px solid #E2F3FD;
+}
+#alist ul li{
+	font-size: 12px;
+	font-weight: normal;
+	margin: 0;
+	padding:0 3px;
+	height: 20px;
+	line-height: 20px;
+
+}
+#alist ul{
+	border: 1px solid #1A57B9;
+	border-radius: 5px;
+	width: 45%;
+	height: 20px;
+	margin-top: 50px;
+	display: none;
+}
+#alist ul div{
+	width: 0;
+	height:0;
+	border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #1A57B9;
+    z-index: 1;
+	margin: -10px auto;
+
+}
+#alist ul:nth-child(1){
+	position: absolute;
+	top: 0px;
+	left: 10%;
+}
+#alist ul:nth-child(2){
+	position: absolute;
+	top: 0px;
+	left: 16%;
+}
+#alist ul:nth-child(3){
+	position: absolute;
+	top: 0px;
+	left: 22%;
+}
+#alist ul:nth-child(4){
+	position: absolute;
+	top: 0px;
+	left: 26%;
+	width: 60%;
+}

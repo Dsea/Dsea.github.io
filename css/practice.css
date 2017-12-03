@@ -1,0 +1,35 @@
+*{margin: 0;padding: 0}
+html{
+	font-size: 16px;
+}
+body{
+	background: url(../images/timg.jpg);
+}
+h1{
+	font-size: 1.5rem;
+	color: #167AF6;
+	text-align: center;
+}
+h4{
+	color: #12535B;
+}
+a{
+	font-size: 0.75rem;
+	color:white;
+	font-weight: bold;
+	line-height: 4rem;
+	width: 6rem;
+	height: 6rem;
+	margin: 10px;
+	display: inline-block;
+	border-radius: 10px;
+	background-color: #6BDFED;
+	text-align: center;
+	background: url(../images/demo.png);
+	background-size: 6rem auto;
+	box-shadow: 3px 3px 3px 2px#C6C7C7;
+}
+img{
+	width: 100px;
+	height: 60px;
+}

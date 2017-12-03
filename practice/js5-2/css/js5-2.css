@@ -1,0 +1,39 @@
+*{margin: 0;padding: 0;}
+#demo{
+	width: 500px;
+	margin: 10px auto;
+	background: #F5F5F5;
+}
+#demoTop{
+	height: 30px;
+	background: #21B209;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 30px;
+}
+#demoBody{
+	position: relative;
+}
+#demoBody span {
+	margin: 10px 10px;
+	float: left;
+
+}
+#demoCli{
+	display: none;
+	position: absolute;
+}
+input{
+	margin-left: 10px;
+	width: 120px;
+	height: 20px;
+	border:1px solid #A7FC8F;
+}
+button{
+	width: 50px;
+	height: 25px;
+	border: none;
+	border-radius: 5px;
+	background: #1BF075;
+}

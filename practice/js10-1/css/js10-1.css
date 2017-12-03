@@ -1,0 +1,14 @@
+*{margin: 0;padding: 0}
+body{
+	background: #242040;
+}
+#box{
+	width: 986px;
+	height: 174px;
+	margin: 20% auto;
+	text-align: center;
+	position: relative;
+}
+#box img{
+	position: absolute;
+}

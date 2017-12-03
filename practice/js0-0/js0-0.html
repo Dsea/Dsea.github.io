@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<title>弹窗</title>
+	<link rel="stylesheet" href="css/css0-0.css">
+	<script src="js/js0-0.js"></script>
+</head>
+<body>
+	<div id="demo">
+	<!--演示层-->
+		<div class="show">
+			请为下面的DIV设置样式:
+			<button id="btn">点击设置</button>
+
+			<div id="showDiv"></div>
+		</div>
+	<!--设置层-->
+		<div id="setBox">
+			<div class="set">
+			<!--颜色改变-->
+				<div>
+					<span>请选择背景颜色:</span>
+					<button style="background:red">红</button>
+					<button style="background:yellow">黄</button>
+					<button style="background:blue">蓝</button>
+				</div>
+			<!--宽度改变-->
+				<div>
+				    <span>请选择宽度(px):</span>
+					<button>200</button>
+					<button>300</button>
+					<button>400</button>
+				</div>
+			<!--高度改变 -->
+				<div>
+					<span>请选择高度:(px)</span>
+					<button>200</button>
+					<button>300</button>
+					<button>400</button>
+				</div>
+			<!--确认按钮-->
+				<div class="setBtn">
+				    <input type="button" value="恢复">
+				  	<input type="button" value="确定">
+				</div>
+
+			</div>			
+		</div>
+	</div>
+</body>
+</html>
